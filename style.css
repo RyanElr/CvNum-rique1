@@ -1,7 +1,11 @@
 body
 {
   background-image: url("Cv.png");
-  background-size: 2500px;
+  background-size: 2300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }
 .bc1
 {
@@ -62,7 +66,7 @@ div.navDiv {
 body {
 
     font-family: 'Reactor7', monospace;
-    text-shadow: 1px 2px 2px rgba(20,20,20,1);
+    text-shadow: 1px 1px 1px rgba(20,20,20,1);
 
 }
 body {
@@ -75,9 +79,19 @@ body {
 }
 h2
 {
+    text-shadow: 2px 2px 4px black;
   font-size: 50px
 }
-h2
+
+ul
 {
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 1px 1px 1px black;
 }
+p{
+  text-shadow: 2px 2px 2px black;
+  color: #ff5050
+}
+.row [class^="col-"] {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
